@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Expenses chart component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="section">
 
-  My balance
-  $921.48
+    <p id="myBalanceText"> My balance </p>
+    <p id="balance"> $921.48</p>
+    <img src="./images/logo.svg" alt="">
+  </div>
 
-  Spending - Last 7 days
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+  <div class="">
+    <h2 class="boldText">
+      Spending - Last 7 days
+    </h2>
 
-  Total this month
-  $478.33
+    <ul>
+      <li>mon</li>
+      <li>tue</li>
+      <li>wed</li>
+      <li>thu</li>
+      <li>fri</li>
+      <li>sat</li>
+      <li>sun</li>
+    </ul>
 
-  +2.4%
-  from last month
-  
+    <hr id="horizontalLine">
+
+
+
+    <table>
+      <tr>
+        <td>
+          <p>Total this month</p>
+          <h1 class="boldText">$478.33</h1>
+        </td>
+        <td>
+          <p id="balanceIncrease">+2.4%</p>
+          <p class="boldText">from last month</p>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
