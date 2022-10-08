@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -10,45 +11,57 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-
-
   <section>
+  <header>
 
-    <header>
-      My balance
-      $921.48
-    </header>
+    <p id="myBalanceText"> My balance </p>
+    <p id="balance"> $921.48</p>
+    <img src="./images/logo.svg" alt="">
+  </header>
 
 
-    <main>
-
+  <main>
+    <h2 class="boldText">
       Spending - Last 7 days
-    
-      mon
-      tue
-      wed
-      thu
-      fri
-      sat
-      sun
-    
-      <hr>
-      Total this month
-      $478.33
-    
-      +2.4%
-      from last month
-    </main>
-  
+    </h2>
 
-  </section>
+    <ul>
+      <li>mon</li>
+      <li>tue</li>
+      <li>wed</li>
+      <li>thu</li>
+      <li>fri</li>
+      <li>sat</li>
+      <li>sun</li>
+    </ul>
 
-  
+    <hr id="horizontalLine">
+
+
+
+    <table>
+      <tr>
+        <td>
+          <p>Total this month</p>
+          <h1 class="boldText">$478.33</h1>
+        </td>
+        <td>
+          <p id="balanceIncrease">+2.4%</p>
+          <p class="boldText">from last month</p>
+        </td>
+      </tr>
+    </table>
+
+  </main>
+</section>
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
   <script src="script/script.js"></script>
 </body>
+
 </html>
