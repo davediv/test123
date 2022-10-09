@@ -14,14 +14,26 @@ section {
   padding: 1rem;
 }
 
+/* header */
+
 header {
   background-color: hsl(10, 79%, 65%);
   color: #fff;
   margin: 1rem auto;
-  padding: 1rem;
+  padding: 0px 30px 0px 30px;
   border-radius: 0.7rem;
 }
 
+.heading {
+  display: flex;
+}
+.logo{
+  margin-left: 340px;
+  padding-top: 35px;
+}
+/* end header */
+
+/* main */
 main {
   background-color: #fff;
   margin: 1rem auto;
@@ -29,9 +41,79 @@ main {
   border-radius: 0.7rem;
 }
 
+.chart {
+  display: flex;
+  gap: 42px;
+  list-style-type: none;
+  text-align: center;
+  color: #ccc;
+}
+.chart-box{
+  display: flex;
+  gap: 28px;
+  list-style-type: none;
+  padding-bottom: 0px;
+}
+.chart-box li:nth-child(1){
+  background-color: hsl(10, 79%, 65%);
+  height: 60px;
+  width: 42px;
+  border-radius: 3px;
+  bottom: 0px;
+}
+.chart-box li:nth-child(2){
+  background-color: hsl(10, 79%, 65%);
+  height:100px;
+  width: 42px;
+  border-radius: 3px;
+}
+.chart-box li:nth-child(3){
+  background-color: hsl(186, 34%, 60%);
+  height: 140px;
+  width: 42px;
+  border-radius: 3px;
+}
+.chart-box li:nth-child(4){
+  background-color: hsl(10, 79%, 65%);
+  height:90px;
+  width: 42px;
+  border-radius: 3px;
+}.chart-box li:nth-child(5){
+  background-color: hsl(10, 79%, 65%);
+  height:80px;
+  width: 42px;
+  border-radius: 3px;
+}.chart-box li:nth-child(6){
+  background-color: hsl(10, 79%, 65%);
+  height:120px;
+  width: 42px;
+  border-radius: 3px;
+}.chart-box li:nth-child(7){
+  background-color: hsl(10, 79%, 65%);
+  height:70px;
+  width: 42px;
+  border-radius: 3px;
+}
+
 hr {
   border: 0.5px solid hsl(27, 66%, 92%);
 }
+/* end main */
+
+/* footer */
+.total-info p {
+  color: #ccc;
+}
+.left-info h1{
+  font-size: 45px;
+}
+.right-info{
+  margin-left: 200px;
+}
+.right-info h4{
+color: #ccc;
+}
+/* end footer */
 
 .attribution {
   font-size: 14px;
